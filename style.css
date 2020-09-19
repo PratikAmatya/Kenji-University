@@ -1,0 +1,25 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 20px;
+	/* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#navBarMain {
+	background-color: #20639b;
+}
+img {
+	height: 400px;
+	width: auto;
+	object-fit: cover;
+}
+#aboutUs {
+	background-color: #20639b;
+	color: white;
+	font-size: 20px;
+}
+
