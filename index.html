@@ -10,12 +10,13 @@
 		/>
 
 		<!-- Bootstrap CSS -->
-		<link
+		<!-- <link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
-		/>
+		/> -->
+		<link rel="stylesheet" href="bootstrap.css" />
 		<link
 			rel="stylesheet"
 			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -30,13 +31,10 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<nav
-			class="navbar navbar-expand-md navbar-light shadow mx-0 mt-0"
-			id="navBarMain"
-		>
-			<a href="#" class="navbar-brand mr-sm-5 ml-sm-2 text-light">
+		<nav class="navbar navbar-expand-md navbar-dark shadow" id="navBarMain">
+			<a href="#" class="navbar-brand mr-sm-5 ml-sm-2 ml-0 text-light">
 				<i class="fas fa-university fa-2x"></i>
-				<span class="h4">Kenji University</span>
+				<span class="h4" id="logo">Kenji University</span>
 			</a>
 			<button
 				class="navbar-toggler"
@@ -49,15 +47,13 @@
 			<div class="collapse navbar-collapse justify-content-start" id="mainNav">
 				<ul class="navbar-nav px-2">
 					<li class="nav-item mr-2">
-						<a href="#" class="nav-link active text-light font-weight-bold"
-							>Home</a
-						>
+						<a href="#" class="nav-link active font-weight-bold">Home</a>
 					</li>
 					<li class="nav-item mr-2">
 						<a href="#" class="nav-link text-light">Academics</a>
 					</li>
 					<li class="nav-item mr-2">
-						<a href="#" class="nav-link text-light">Contact</a>
+						<a href="contact.html" class="nav-link text-light">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -120,13 +116,15 @@
 				</a>
 			</div>
 		</div>
-		<div class="jumbotron mt-4 py--4 mx-md-5 mx-1" id="aboutUs">
+		<div class="jumbotron mt-4 mx-md-5 mx-0 rounded-0" id="aboutUs">
 			<h5 class="display-4">Who we are</h5>
 			<span
 				>We were founded by Mrs. Kimiko in the memory of her late brother. Our
-				main objective has always been to provide quality education. We provide
-				a friendly competitive environment for our student to flourish and
-				develop their talents and have a bright future.
+				main objective has always been to provide quality education. Currently,
+				we offer GCE A Level, a prestigious programme of the Cambridge
+				University, UK and Liberal Arts and Sciences undergraduate programme. We
+				provide a friendly competitive environment for our student to flourish
+				and develop their talents and have a bright future.
 			</span>
 		</div>
 		<div class="container">
@@ -149,9 +147,9 @@
 							goals in academics as well as in extra-curricular activities. We
 							believe in hard work and expect from our students as well. We are
 							open to suggestions from our students and are always open to their
-							questions. The teachers here are highly skilled and are top in
-							their fields. I would like to say to our students that their
-							future is in safe hands.
+							questions. The teachers here are highly skilled and are at the top
+							in their respective fields. I would like to say to our students
+							that their future is in safe hands.
 						</span>
 						<i class="fas fa-quote-right fa-lg"></i>
 					</div>
@@ -190,7 +188,7 @@
 						<span
 							><i class="far fa-envelope"></i>
 							<a href="mailto: abc@example.com" class="text-light"
-								>kenjiUniversity@gamil.edu.jp</a
+								>kenjiUniversity@gmail.edu.jp</a
 							></span
 						>
 					</div>
